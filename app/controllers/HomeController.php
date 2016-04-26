@@ -39,7 +39,7 @@ class HomeController extends BaseController {
 		$price = 300;
 		// Product information stop ---
 
-		return $this->makeView([
+		return $this->makeView('sample', [
 			'title' => $title,
 			'images' => $images,
 			'video' => $video,
@@ -50,13 +50,13 @@ class HomeController extends BaseController {
 		]);
 	}
 
-	private function makeView($data)
+	private function makeView($prefix, $data)
 	{
 		// Record the title of product, then it can be used to shop
 		Cookie::queue('title', $data['title'], 60);
 
 		// AB testing , if user isn't in video experiment, clear it
-		if (AB::experiment('video')) {
+		if (AB::experiment($prefix . '/video')) {
 			array_unshift($data['images'], $data['video']['image']);
 		} else {
 			$data['video'] = '';
@@ -91,7 +91,7 @@ class HomeController extends BaseController {
 		$price = 19.89;
 		// Product information stop ---
 
-		return $this->makeView([
+		return $this->makeView('minors', [
 			'title' => $title,
 			'images' => $images,
 			'video' => $video,
