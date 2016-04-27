@@ -1,31 +1,60 @@
-<!doctype html>
+@extends('layout')
+
+@section('body')    
+
+    <div class="col-md-6 col-md-offset-3">
+        <header class="page-header">
+            <h2>請填寫資料完成購買</h2>
+        </header>
+        <form action="{{ URL::to('/buy') }}" method="post">
+            <div class="form-group">
+                <label for="product">商品</label>
+                <input type="text" class="form-control" id="product" name="product" readonly 
+                    value="{{ $title }}">
+            </div>
+
+            <div class="form-group">
+                <label for="price">價格</label>
+                <input type="number" class="form-control" id="price" name="price" readonly 
+                    value="{{ $price }}">
+            </div>
 
 
-<html>
-    <head>
-    	<title>{{{ $title }}}超值特惠!!</title>
-    	
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>
+            <div class="form-group">
+                <label for="number">訂購數量</label>
+                <input type="number" class="form-control" id="number" name="number" value=1>
+            </div>
 
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
- 		<link rel="stylesheet" href="/lib/bootstrap.min.css">   	
+            <div class="form-group">
+                <label for="name">收件人</label>
+                <input type="text" class="form-control" id="name" name="name" 
+                    placeholder="王小明">
+            </div>
 
-        <link rel="stylesheet" href="/css/shop.css">   	
+            <div class="form-group">
+                <label for="email">電子信箱</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+            </div>
 
-    	<script>
-    		$(document).ready(function() {
-				
-			});
-    	</script>    	
-    	
-    </head>
+            <div class="form-group">
+                <label for="phone">手機號碼</label>
+                <input type="text" class="form-control" id="phone" name="phone" 
+                    placeholder="09xx-xxx-xxx">
+            </div>
 
-    <body>
-        123
+            <div class="form-group">
+                <label for="ship">宅配方式</label>
+                <input type="text" class="form-control" id="ship" name="ship" value="貨到付款" readonly>
+            </div>
 
-    </body>
-</html>
+            <div class="form-group">
+                <label for="address">地址</label>
+                <input type="address" class="form-control" id="address" name="address" placeholder="台北市 . . .">
+            </div>
+
+            
+            <button type="submit" class="btn btn-default">送出</button>
+        </form>
+    </div>
+
+@stop

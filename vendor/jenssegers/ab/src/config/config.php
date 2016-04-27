@@ -11,7 +11,7 @@ return array(
     |
     */
 
-    'connection' => 'mysql',
+    'connection' => '',
 
     /*
     |--------------------------------------------------------------------------
@@ -24,12 +24,7 @@ return array(
     |
     */
 
-    'experiments' => [
-        'minors/picture',
-        'minors/video',
-        'sample/picture',
-        'sample/video',
-    ],
+    'experiments' => [],
 
     /*
     |--------------------------------------------------------------------------
@@ -42,8 +37,6 @@ return array(
     |
     */
 
-    'goals' => [
-        'buy'
-    ],
+    'goals' => [],
 
 );
