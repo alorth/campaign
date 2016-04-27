@@ -19,4 +19,5 @@ Route::get('/', function()
 Route::get('/sample', 'HomeController@showSample');
 Route::get('/minors', 'HomeController@showMinors');
 
-Route::get('/minors/buy', 'BuyController@showBuy');
+Route::get('/buy', 'BuyController@showBuy');
+Route::post('/buy', 'BuyController@buy');

@@ -1,0 +1,1456 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"address"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"descrip",
+				"description"
+			],
+			[
+				"main",
+				"mainImageSrc"
+			],
+			[
+				"device",
+				"deviceInfo"
+			],
+			[
+				"comple",
+				"completed_"
+			],
+			[
+				"page",
+				"pageview"
+			],
+			[
+				"get",
+				"getNextPageMembers"
+			],
+			[
+				"list",
+				"listId"
+			],
+			[
+				"subsc",
+				"subscriber"
+			],
+			[
+				"sub",
+				"subscriber"
+			],
+			[
+				"usr_cur",
+				"usr_curr_posx"
+			],
+			[
+				"quer",
+				"query_stream_orderby_sellamount"
+			],
+			[
+				"pub",
+				"publish"
+			],
+			[
+				"MAIL",
+				"MAILCHIMP_CHANNEL"
+			],
+			[
+				"wher",
+				"where_case"
+			],
+			[
+				"gds",
+				"gds_uid"
+			],
+			[
+				"var_stream_",
+				"var_stream_score_t"
+			],
+			[
+				"fix",
+				"fix_day_stm_number"
+			],
+			[
+				"fix_",
+				"fix_day_sql"
+			],
+			[
+				"lan",
+				"lang_filter"
+			],
+			[
+				"last",
+				"last_timestamp"
+			],
+			[
+				"stm_",
+				"stm_timestamp"
+			],
+			[
+				"assert",
+				"assertLessThanOrEqual"
+			],
+			[
+				"RE",
+				"REQUEST_URI"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"User",
+				"User_PW"
+			],
+			[
+				"passwor",
+				"fbsql_password"
+			],
+			[
+				"post",
+				"postfields"
+			],
+			[
+				"http_buil",
+				"http_build_query"
+			],
+			[
+				"view",
+				"viewstateGenerator"
+			],
+			[
+				"store",
+				"storeNextLine"
+			],
+			[
+				"writ",
+				"writeToFile"
+			],
+			[
+				"print",
+				"printScreen"
+			],
+			[
+				"file",
+				"filenames"
+			],
+			[
+				"slee",
+				"sleepUntilFileAppear"
+			],
+			[
+				"simu",
+				"simulateOverall"
+			],
+			[
+				"dra",
+				"drawInMatlab"
+			],
+			[
+				"out",
+				"outputFileName"
+			],
+			[
+				"writeS",
+				"writeStartEndTimeToRecord"
+			],
+			[
+				"shuffle",
+				"shuffleTimes"
+			],
+			[
+				"idle",
+				"idleTimes"
+			],
+			[
+				"reduc",
+				"reduceTimes"
+			],
+			[
+				"shuf",
+				"shuffleStart"
+			],
+			[
+				"write",
+				"writeShuffleTimeToRecord"
+			],
+			[
+				"extra",
+				"extractShuffleTime"
+			],
+			[
+				"end",
+				"endTime"
+			],
+			[
+				"start",
+				"startFlag"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"filepa",
+				"filepath"
+			],
+			[
+				"fi",
+				"filepathes"
+			],
+			[
+				"root",
+				"rootDir"
+			],
+			[
+				"extrac",
+				"extractResponseIntoJson"
+			],
+			[
+				"bui",
+				"buildRow"
+			],
+			[
+				"build",
+				"buildCol"
+			],
+			[
+				"inser",
+				"insertData"
+			],
+			[
+				"artic",
+				"articles"
+			],
+			[
+				"json",
+				"jsonResponse"
+			],
+			[
+				"printAr",
+				"printArrayOnScreen"
+			],
+			[
+				"fila",
+				"filename"
+			],
+			[
+				"calcu",
+				"calculateMinTime"
+			],
+			[
+				"reduce",
+				"reducerTimes"
+			],
+			[
+				"getUs",
+				"getUsedTimeInReducerTimes"
+			],
+			[
+				"shuffl",
+				"shuffleTimes"
+			],
+			[
+				"ouput",
+				"outputFileName"
+			],
+			[
+				"shuff",
+				"shuffleEnd"
+			],
+			[
+				"reducer",
+				"reducerTimes"
+			],
+			[
+				"mapper",
+				"mapperTimes"
+			],
+			[
+				"output",
+				"outputArrayOnScreen"
+			],
+			[
+				"map",
+				"mapperAvg"
+			],
+			[
+				"mappe",
+				"mapperRecord"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/config/packages/jenssegers/ab/config.php",
+			"settings":
+			{
+				"buffer_size": 1135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/BuyController.php",
+			"settings":
+			{
+				"buffer_size": 605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/buy.blade.php",
+			"settings":
+			{
+				"buffer_size": 1658,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 1144,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 2589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shop.blade.php",
+			"settings":
+			{
+				"buffer_size": 1853,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/shop.css",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/galleryCtrl.js",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/jenssegers/ab/src/Tester.php",
+			"settings":
+			{
+				"buffer_size": 8010,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/Customer.php",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/migrations/2016_04_26_103522_add_time_column_into_customers_table.php",
+			"settings":
+			{
+				"buffer_size": 493,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Models/Experiment.php",
+		"/Users/mac/coding/Web/campaign/app/database/migrations/2016_04_26_102237_add_customer_table.php",
+		"/Users/mac/coding/Web/campaign/app/config/app.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Session/CookieSession.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Tester.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Models/Goal.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Models/Log.php",
+		"/Users/mac/coding/Web/campaign/app/views/hello.blade.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Commands/InstallCommand.php",
+		"/Users/mac/coding/Web/campaign/bootstrap/start.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Commands/ExportCommand.php",
+		"/Users/mac/coding/Web/campaign/vendor/jenssegers/ab/src/Commands/FlushCommand.php",
+		"/Users/mac/coding/Web/campaign/app/config/packages/jenssegers/ab/config.php",
+		"/Users/mac/coding/Web/campaign/app/storage/sessions/60fcbcf3efe3db5a59ec790ee88eac152b24138b",
+		"/Users/mac/coding/Web/campaign/app/config/local/database.php",
+		"/Users/mac/coding/Web/campaign/composer.json",
+		"/private/var/nginx-www/inventory/application/libraries/mixpanel/mpanel.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe3/St_pay.php",
+		"/private/var/nginx-www/inventory/system/libraries/Email.php",
+		"/private/var/nginx-www/inventory/application/config/email.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe3/lib/Token.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe3/lib/Account.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe3/lib/ApiResource.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe3/lib/StripeObject.php",
+		"/private/var/nginx-www/inventory/application/controllers/oauth.php",
+		"/private/var/nginx-www/inventory/application/models/token_m.php",
+		"/private/var/nginx-www/inventory/application/models/order_m.php",
+		"/private/var/nginx-www/inventory/application/controllers/stream.php",
+		"/private/var/nginx-www/inventory/application/libraries/im/im.php",
+		"/private/var/nginx-www/inventory/application/libraries/tools/auth.php",
+		"/private/var/nginx-www/inventory/mailServer/mailer/mailchimpWrapper.js",
+		"/private/var/nginx-www/inventory/mailServer/mailer/recommender.js",
+		"/private/var/nginx-www/inventory/application/config/constants.php",
+		"/private/var/nginx-www/inventory/tests/stream_test.php",
+		"/private/var/nginx-www/inventory/application/models/stream_m.php",
+		"/private/var/nginx-www/inventory/application/controllers/background.php",
+		"/private/var/nginx-www/inventory/application/libraries/mailServer/mailer.php",
+		"/private/var/nginx-www/inventory/application/controllers/user.php",
+		"/private/var/nginx-www/inventory/application/models/user_m.php",
+		"/private/var/nginx-www/inventory/application/controllers/earn.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe/St_pay.php",
+		"/private/var/nginx-www/inventory/.gitignore",
+		"/private/var/nginx-www/inventory/tests/search_test.php",
+		"/private/var/nginx-www/inventory/application/models/search_m.php",
+		"/private/var/nginx-www/inventory/application/controllers/search.php",
+		"/private/var/nginx-www/inventory/application/libraries/mailServer/composer.json",
+		"/private/var/nginx-www/inventory/application/libraries/mailServer/recommend_emailer.php",
+		"/private/var/nginx-www/inventory/application/libraries/mailServer/lib/MailchimpWrapper.php",
+		"/private/var/nginx-www/inventory/application/controllers/search_m.php",
+		"/private/var/nginx-www/inventory/system/libraries/Encrypt.php",
+		"/private/var/nginx-www/inventory/application/libraries/stripe/lib/Stripe.php",
+		"/private/var/nginx-www/inventory/application/config/mimes.php",
+		"/private/var/nginx-www/inventory/application/libraries/tools/aes.php",
+		"/private/var/nginx-www/inventory/application/libraries/tools/api_handler.php",
+		"/private/var/nginx-www/inventory/application/controllers/cart.php",
+		"/private/var/nginx-www/inventory/application/config/database.php",
+		"/private/var/nginx-www/inventory/application/controllers/admin.php",
+		"/private/var/nginx-www/inventory/application/controllers/goods.php",
+		"/private/var/nginx-www/inventory/application/models/recomm_m.php",
+		"/private/var/nginx-www/inventory/application/models/goods_m.php",
+		"/private/var/nginx-www/inventory/application/controllers/seller.php",
+		"/private/var/nginx-www/inventory/system/libraries/Cache/drivers/Cache_apc.php",
+		"/private/var/nginx-www/inventory/README.md",
+		"/private/var/nginx-www/test/system/core/Router.php",
+		"/private/var/nginx-www/test/application/controllers/welcome.php",
+		"/Users/mac/Desktop/Work/Inventory/application/config/routes.php",
+		"/Users/mac/Desktop/Work/Inventory/system/database/drivers/mysql/mysql_driver.php",
+		"/Users/mac/coding/Web/test/index.html",
+		"/Users/mac/coding/Python/webCrawler/catch.php",
+		"/Users/mac/coding/Python/webCrawler/stockCatch.php",
+		"/Users/mac/coding/Python/webCrawler/test.php",
+		"/Users/mac/coding/Web/firefighter/app/config/app.php",
+		"/Users/mac/coding/Web/firefighter/public/js/dateCtrl.js",
+		"/Users/mac/coding/Web/firefighter/public/js/formCtrl.js",
+		"/Users/mac/coding/Web/ems/server.php",
+		"/Users/mac/coding/Web/ems/app/User.php",
+		"/Users/mac/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mac/coding/Web/klfdDayWork/js/formCtrl.js",
+		"/Users/mac/coding/Web/klfdDayWork/index.html",
+		"/Users/mac/coding/Python/webCrawler/test2.php",
+		"/Users/mac/coding/Python/webCrawler/grab.php",
+		"/Users/mac/coding/Python/webCrawler/cookie.txt",
+		"/Users/mac/coding/Python/bbsCrawler/imaple.py",
+		"/Users/mac/Documents/workspace/mrsim/MATLAB/RecordParser.py",
+		"/Users/mac/Documents/workspace/mrsim/py/generate_jobs.py",
+		"/Users/mac/Documents/workspace/mrsim/py/generate_test_data.py",
+		"/Users/mac/Documents/workspace/mrsim/MATLAB/main.py",
+		"/Users/mac/Desktop/temp.java",
+		"/Users/mac/coding/Web/kp/app/filters.php",
+		"/Users/mac/coding/Web/laravel_test/app/views/layout.blade.php",
+		"/Users/mac/coding/Web/laravel_test/app/storage/logs/laravel.log",
+		"/Users/mac/coding/Web/laravel_test/public/index.php",
+		"/Users/mac/Documents/MATLAB/mrsim/getRecord.py",
+		"/Users/mac/Desktop/getRecord.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"~/coding/Web/campaign",
+			"/private/var/nginx-www/inventory/",
+			"/private/var/nginx-www/inventory/application/libraries/mailServer",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"123",
+			"prefix",
+			"set\\('ex",
+			"get\\('ex",
+			"pageview",
+			"experiment",
+			"active",
+			"nextEx",
+			"nextExperi",
+			"nextEx",
+			"set\\('ex",
+			"setExperiment",
+			"session->se",
+			"購買",
+			"夠",
+			"購買",
+			"ori",
+			"complete",
+			"experiment",
+			"track",
+			"goal",
+			"scopeActive",
+			"local",
+			"122",
+			"120",
+			"112",
+			"get_addres",
+			"save_product_view",
+			"delete_cart_item",
+			"get_all_stream",
+			"get_stream_list",
+			"get_stream",
+			"get_comment_list",
+			"query_goods",
+			"013",
+			"mixpanel",
+			"058",
+			"insert_report_stream",
+			"query_current_product",
+			"052",
+			"set_stream_image",
+			"query_commission_info",
+			"query_commission_info_NEW",
+			"query_commission_info_NEW\nquery_commission_info_NEW\nquery_commission_info_NEW",
+			"query_commission_info_NEW\nquery_commission_info_NEW",
+			"query_commission_info_NEW",
+			"041",
+			"query_user_following",
+			"query_user_following\nquery_user_following",
+			"query_user_following",
+			"38",
+			"get_sales_statistics_by_product",
+			"037",
+			"034",
+			"get_each_user_info",
+			"get_comment_list_use_stockid",
+			"get_cate",
+			"get_category_spec",
+			"reset_pass",
+			"modify_inventory",
+			"query_inventory",
+			"025",
+			"set_im_id",
+			"024",
+			"get_im_id",
+			"user_logout",
+			"022",
+			"set_personal_info",
+			"021",
+			"get_personal_info",
+			"018",
+			"get_buy_or",
+			"019",
+			"get_sell_order_list",
+			"018",
+			"017",
+			"get_seller_p",
+			"016",
+			"reply_comment",
+			"comment_stock",
+			"query_comment_average_rate",
+			"get_comment_list",
+			"createToken",
+			"application_order_param",
+			"create_charge_direct",
+			"appl_earn",
+			"create_customer_token",
+			"create_or",
+			"order_number",
+			"create_account",
+			"register_user",
+			"create_account",
+			"get_auth_url",
+			"connect_str",
+			"71",
+			"get_goods_info_by_stream",
+			"query_seller_token_by_user",
+			"insert_token_info",
+			"pay_or",
+			"012",
+			"abort_or",
+			"modify_order",
+			"create_order",
+			"order_number",
+			"create_order",
+			"009",
+			"check_if_posted",
+			"008",
+			"update_view_times",
+			"query_inv_data_list",
+			"query_goods_with_inv",
+			"007",
+			"query_goods_list",
+			"query_goods",
+			"006",
+			"add_new_inv",
+			"init_v1_score",
+			"hash_hmac",
+			"query_currency_and_location",
+			"add_new_inv",
+			"change_pass",
+			"004",
+			"wirte_user_position",
+			"003",
+			"genSig",
+			"update_user",
+			"query_currency_map_by_location",
+			"USR_INVALID"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"reduceUsedTime",
+			"shuffleUsedTime",
+			"mapUsedTime",
+			"reducerTimes",
+			"mapperTimes",
+			"reduceTime",
+			"shuffleTime"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/config/packages/jenssegers/ab/config.php",
+					"settings":
+					{
+						"buffer_size": 1135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes.php",
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								628,
+								628
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/BuyController.php",
+					"settings":
+					{
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/buy.blade.php",
+					"settings":
+					{
+						"buffer_size": 1658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layout.blade.php",
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 2589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/shop.blade.php",
+					"settings":
+					{
+						"buffer_size": 1853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								868
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/css/shop.css",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/js/galleryCtrl.js",
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 38.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vendor/jenssegers/ab/src/Tester.php",
+					"settings":
+					{
+						"buffer_size": 8010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								694
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 410.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/models/Customer.php",
+					"settings":
+					{
+						"buffer_size": 161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/database/migrations/2016_04_26_103522_add_time_column_into_customers_table.php",
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ex",
+				"vendor/jenssegers/ab/src/Models/Experiment.php"
+			],
+			[
+				"app/config",
+				"app/config/app.php"
+			],
+			[
+				"exp",
+				"vendor/jenssegers/ab/src/Models/Experiment.php"
+			],
+			[
+				"hello",
+				"app/views/hello.blade.php"
+			],
+			[
+				"start",
+				"bootstrap/start.php"
+			],
+			[
+				"cookie",
+				"vendor/jenssegers/ab/src/Session/CookieSession.php"
+			],
+			[
+				"goal",
+				"vendor/jenssegers/ab/src/Models/Goal.php"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			],
+			[
+				"s",
+				"bootstrap/start.php"
+			],
+			[
+				"exper",
+				"vendor/jenssegers/ab/src/Models/Experiment.php"
+			],
+			[
+				"install",
+				"vendor/jenssegers/ab/src/Commands/InstallCommand.php"
+			],
+			[
+				"config",
+				"app/config/packages/jenssegers/ab/config.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"setting_m",
+				"application/models/setting_m.php"
+			],
+			[
+				"setting",
+				"application/controllers/setting.php"
+			],
+			[
+				"recent_",
+				"application/models/recent_view_m.php"
+			],
+			[
+				"recent",
+				"application/controllers/recentview.php"
+			],
+			[
+				"cart",
+				"application/controllers/cart.php"
+			],
+			[
+				"stream",
+				"application/controllers/stream.php"
+			],
+			[
+				"comment",
+				"application/controllers/comment.php"
+			],
+			[
+				"goods",
+				"application/controllers/goods.php"
+			],
+			[
+				"mpanel",
+				"application/libraries/mixpanel/mpanel.php"
+			],
+			[
+				"stream_m",
+				"application/models/stream_m.php"
+			],
+			[
+				"stpa",
+				"application/libraries/stripe3/St_pay.php"
+			],
+			[
+				"earn_m",
+				"application/models/earn_m.php"
+			],
+			[
+				"earn",
+				"application/controllers/earn.php"
+			],
+			[
+				"user.",
+				"application/controllers/user.php"
+			],
+			[
+				"inve",
+				"application/controllers/inventory.php"
+			],
+			[
+				"email.php",
+				"system/libraries/Email.php"
+			],
+			[
+				"email.",
+				"application/config/email.php"
+			],
+			[
+				"user",
+				"application/controllers/user.php"
+			],
+			[
+				"invento",
+				"application/controllers/inventory.php"
+			],
+			[
+				"webim_m",
+				"application/models/webim_m.php"
+			],
+			[
+				"webim",
+				"application/controllers/webim.php"
+			],
+			[
+				"auth",
+				"application/libraries/tools/auth.php"
+			],
+			[
+				"order_m",
+				"application/models/order_m.php"
+			],
+			[
+				"comm_m",
+				"application/models/comment_m.php"
+			],
+			[
+				"token",
+				"application/libraries/stripe3/lib/Token.php"
+			],
+			[
+				"st_pa",
+				"application/libraries/stripe3/St_pay.php"
+			],
+			[
+				"oauth",
+				"application/controllers/oauth.php"
+			],
+			[
+				"order.",
+				"application/controllers/order.php"
+			],
+			[
+				"invent_m",
+				"application/models/invent_m.php"
+			],
+			[
+				"good_m",
+				"application/models/goods_m.php"
+			],
+			[
+				"seller",
+				"application/controllers/seller.php"
+			],
+			[
+				"tools/auth",
+				"application/libraries/tools/auth.php"
+			],
+			[
+				"im/im",
+				"application/libraries/im/im.php"
+			],
+			[
+				"recommend",
+				"mailServer/mailer/recommender.js"
+			],
+			[
+				"mailchimp",
+				"mailServer/mailer/mailchimpWrapper.js"
+			],
+			[
+				"consta",
+				"application/config/constants.php"
+			],
+			[
+				"user.ph",
+				"application/controllers/user.php"
+			],
+			[
+				"user_m",
+				"application/models/user_m.php"
+			],
+			[
+				"mailer",
+				"application/libraries/mailServer/mailer.php"
+			],
+			[
+				"stre",
+				"application/models/stream_m.php"
+			],
+			[
+				"good",
+				"application/models/goods_m.php"
+			],
+			[
+				"st_p",
+				"application/libraries/stripe3/St_pay.php"
+			],
+			[
+				"st_",
+				"application/libraries/stripe/St_pay.php"
+			],
+			[
+				"token_m",
+				"application/models/token_m.php"
+			],
+			[
+				"ear",
+				"application/controllers/earn.php"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"stream_tes",
+				"tests/stream_test.php"
+			],
+			[
+				"search_te",
+				"tests/search_test.php"
+			],
+			[
+				"search_m",
+				"application/models/search_m.php"
+			],
+			[
+				"search",
+				"application/controllers/search.php"
+			],
+			[
+				"backg",
+				"application/controllers/background.php"
+			],
+			[
+				"cons",
+				"application/config/constants.php"
+			],
+			[
+				"stream.",
+				"application/controllers/stream.php"
+			],
+			[
+				"searc",
+				"application/controllers/search.php"
+			],
+			[
+				"stripe",
+				"application/libraries/stripe/lib/Stripe.php"
+			],
+			[
+				"mime",
+				"application/config/mimes.php"
+			],
+			[
+				"enc",
+				"system/libraries/Encrypt.php"
+			],
+			[
+				"aes",
+				"application/libraries/tools/aes.php"
+			],
+			[
+				"encrypt",
+				"system/libraries/Encrypt.php"
+			],
+			[
+				"back",
+				"application/controllers/background.php"
+			],
+			[
+				"api_",
+				"application/libraries/tools/api_handler.php"
+			],
+			[
+				"databa",
+				"application/config/database.php"
+			],
+			[
+				"admin",
+				"application/controllers/admin.php"
+			],
+			[
+				"str",
+				"application/controllers/stream.php"
+			],
+			[
+				"tes",
+				"tests/search_test.php"
+			],
+			[
+				"test",
+				"tests/search_test.php"
+			],
+			[
+				"recomm_m",
+				"application/models/recomm_m.php"
+			],
+			[
+				"models/stream",
+				"application/models/stream_m.php"
+			],
+			[
+				"cache_apc",
+				"system/libraries/Cache/drivers/Cache_apc.php"
+			],
+			[
+				"dat",
+				"application/config/database.php"
+			],
+			[
+				"const",
+				"application/config/constants.php"
+			],
+			[
+				"tests/",
+				"tests/search_test.php"
+			],
+			[
+				"",
+				"application/controllers/background.php"
+			],
+			[
+				"database",
+				"application/config/database.php"
+			],
+			[
+				"search.",
+				"application/controllers/search.php"
+			],
+			[
+				"router.",
+				"system/core/Router.php"
+			],
+			[
+				"mysql",
+				"system/database/drivers/mysql/mysql_driver.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/mac/coding/sublime/firefighter.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true
+}

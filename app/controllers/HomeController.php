@@ -54,6 +54,8 @@ class HomeController extends BaseController {
 	{
 		// Record the title of product, then it can be used to shop
 		Cookie::queue('title', $data['title'], 60);
+		Cookie::queue('price', $data['price'], 60);
+		Cookie::queue('prefix', $prefix, 60);
 
 		// AB testing , if user isn't in video experiment, clear it
 		if (AB::experiment($prefix . '/video')) {
@@ -61,7 +63,7 @@ class HomeController extends BaseController {
 		} else {
 			$data['video'] = '';
 		}
-		return View::make('sample', $data);
+		return View::make('shop', $data);
 	}
 
 	public function showMinors()
