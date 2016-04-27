@@ -25,10 +25,12 @@ return array(
     */
 
     'experiments' => [
-        'minors/picture',
-        'minors/video',
+        'minions/picture',
+        'minions/video',
         'sample/picture',
         'sample/video',
+        'lipstick/picture',
+        'lipstick/video',
     ],
 
     /*

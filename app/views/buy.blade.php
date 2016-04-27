@@ -48,8 +48,13 @@
             </div>
 
             <div class="form-group">
-                <label for="ship">宅配方式</label>
-                <input type="text" class="form-control" id="ship" name="ship" value="貨到付款" readonly>
+                <label for="ship">運送方式</label>
+                <input type="text" class="form-control" id="ship" name="ship" value="快遞" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="payment">付款方式</label>
+                <input type="text" class="form-control" id="payment" name="payment" value="貨到付款" readonly>
             </div>
 
             <div class="form-group">

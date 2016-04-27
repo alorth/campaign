@@ -12,7 +12,8 @@
 
 @section('body')    
 	<header class="page-header">
-		<h1>{{{ $title }}}</h1>
+		<h1 class="hidden-xs">{{{ $title }}}</h1>
+		<h3 class="visible-xs">{{{ $title }}}</h3>
 	</header>
 
 	<div class="container middle-frame" ng-controller='galleryCtrl' 
