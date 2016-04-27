@@ -20,19 +20,17 @@
         <link rel="stylesheet" href="/css/shop.css">   	
 
     	@yield('head')
+
+        <script>
+            $(document).ready(function() {
+                if ('{{ Session::get("message") }}' != '') {
+                    alert('{{ Session::get("message") }}');
+                }
+            });
+        </script>
     	
     </head>
     <body ng-app="shopApp" >
-    	<!-- <nav class="navbar navbar-default">
-    		<div class="container container-fluid">
-    			<div class="navbar-header">    				
-    				<img class="navbar-brand" src="{{ asset('images/logo.png') }}" >
-    				<a class="navbar-brand" href="">Alorth</a>
-    			</div>
-                <p class="navbar-text">new era of mobile commerce</p>
-    		</div>			            
-		</nav> -->
-
         <div class="container">
 	       @yield('body')
         </div>
@@ -41,20 +39,23 @@
 
         <footer>
             <div class="container">
-                <div class="col-md-1">
+                <div class="col-md-1 col-sm-2 col-xs-6">
                     <img class="img-responsive img-thumbnail" src="{{ asset('images/logo.png') }}">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 col-sm-4 col-xs-6">
                     <h2>Alorth <small>new era of mobile commerce</small></h2>                    
                 </div>
-                <div class="col-md-3">
+                <div class="visible-xs col-xs-12">
+                    <hr>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
                     <address>
                         <strong>Alorth, Inc.</strong><br>
                         156 2ND STREET, <br>
                         SAN FRANCISCO, CA 94105
                     </address>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-3 col-xs-12">
                     聯絡我們 : <a href="mailto:admin@alorth.com">admin@alorth.com</a>
                 </div>
             </div>

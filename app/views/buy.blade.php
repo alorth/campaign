@@ -26,6 +26,11 @@
             </div>
 
             <div class="form-group">
+                <label for="other">其他需求，例如 : 大小、顏色</label>
+                <input type="text" class="form-control" id="other" name="other" placeholder="">
+            </div>            
+
+            <div class="form-group">
                 <label for="name">收件人</label>
                 <input type="text" class="form-control" id="name" name="name" 
                     placeholder="王小明">
