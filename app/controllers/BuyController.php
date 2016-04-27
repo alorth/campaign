@@ -2,21 +2,23 @@
 
 class BuyController extends \BaseController {
 
-	public function showBuy()
+	public function showBuy($prefix)
 	{
 		$title = Cookie::get('title');
 		if (is_null($title)) {
 			return;
 		}
-
+		AB::complete('buy');
 		return View::make('buy', [
 			'title' => $title,
-			'price' => Cookie::get('price')
+			'price' => Cookie::get('price'),
+			'prefix' => $prefix
 		]);
 	}
 
-	public function buy()
+	public function submit($prefix)
 	{
+		AB::complete('submit');
 		Customer::create([
 			'product' => Input::get('product'),
 			'price' => Input::get('price'),
@@ -28,7 +30,7 @@ class BuyController extends \BaseController {
 			'name' => Input::get('name'),
 			'phone' => Input::get('phone')
 		]);
-		return Redirect::to(Cookie::get('prefix'))->with('message', '成功寄出 !');
+		return Redirect::to($prefix)->with('message', '成功寄出 !');
 	}
 
 

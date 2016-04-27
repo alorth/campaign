@@ -53,9 +53,8 @@ class HomeController extends BaseController {
 	private function makeView($prefix, $data)
 	{
 		// Record the title of product, then it can be used to shop
-		Cookie::queue('title', $data['title'], 60);
-		Cookie::queue('price', $data['price'], 60);
-		Cookie::queue('prefix', $prefix, 60);
+		Cookie::forever('title', $data['title']);
+		Cookie::forever('price', $data['price']);
 
 		// AB testing , if user isn't in video experiment, clear it
 		if (AB::experiment($prefix . '/video')) {
@@ -63,7 +62,7 @@ class HomeController extends BaseController {
 		} else {
 			$data['video'] = '';
 		}
-		return View::make('shop', $data);
+		return View::make('shop', array_merge($data, ['prefix' => $prefix]));
 	}
 
 	public function showMinors()

@@ -81,7 +81,7 @@
 			<article>
 				{{ nl2br(e($rightDesc)) }}
 			</article>
-			<a role="button" class="btn btn-warning" href="{{ URL::to('/buy') }}">前往購買</a>
+			<a role="button" class="btn btn-warning" href='{{ URL::to("$prefix/buy") }}'>前往購買</a>
 		</div>
 	</div>
 	<hr>

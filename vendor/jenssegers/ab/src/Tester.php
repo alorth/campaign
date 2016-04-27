@@ -142,16 +142,18 @@ class Tester {
     public function complete($name)
     {
         // Only complete once per experiment.
-        if ($this->session->get("completed_$name")) return;
+        $experiment = $this->experiment();
+        $prefix = $this->prefix();
+        if ($this->session->get("completed_" . $prefix . "_" . $name)) return;
 
-        $goal = Goal::firstOrCreate(['name' => $name, 'experiment' => $this->experiment()]);
+        $goal = Goal::firstOrCreate(['name' => $name, 'experiment' => $experiment]);
         $deviceInfo = $this->getDeviceInfo($goal);
-        Goal::where('name', $name)->where('experiment', $this->experiment())
+        Goal::where('name', $name)->where('experiment', $experiment)
             ->update(array_merge(['count' => ($goal->count + 1)], $deviceInfo));
         $this->logAll($name);
 
         // Mark current experiment as completed.
-        $this->session->set("completed_$name", 1);
+        $this->session->set("completed_" . $prefix . "_" . $name, 1);
     }
 
 

@@ -43,7 +43,8 @@ return array(
     */
 
     'goals' => [
-        'buy'
+        'buy',
+        'submit'
     ],
 
 );
