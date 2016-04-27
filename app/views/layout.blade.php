@@ -6,7 +6,9 @@
     	<title>Alorth 訂購平台</title>
     	
     	<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+        <meta property="og:site_name" content="Alorth 訂購平台"/>
+        <meta property="og:type" content="website"/>        
+
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.0/angular.min.js"></script>

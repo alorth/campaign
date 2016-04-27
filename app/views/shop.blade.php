@@ -1,5 +1,15 @@
 @extends('layout')
 
+@section('head')    
+	
+	<meta property="og:url" content='{{ Request::url() }}'/>
+	<meta property="og:title" content='{{{ $title }}}'/>
+	<meta property="og:description" content='{{{ $rightDesc }}}'/>
+	<meta property="og:image" content='{{ asset($images[0]) }}'/>
+	
+@stop
+
+
 @section('body')    
 	<header class="page-header">
 		<h1>{{{ $title }}}</h1>
