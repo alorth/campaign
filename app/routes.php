@@ -17,7 +17,8 @@ Route::get('/', function()
 });
 
 Route::get('/sample', 'HomeController@showSample');
-Route::get('/minors', 'HomeController@showMinors');
+Route::get('/minions', 'HomeController@showMinions');
+Route::get('/lipstick', 'HomeController@showLipstick');
 
-Route::get('/buy', 'BuyController@showBuy');
-Route::post('/buy', 'BuyController@buy');
+Route::get('/{prefix}/buy', 'BuyController@showBuy');
+Route::post('/{prefix}/submit', 'BuyController@submit');

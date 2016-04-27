@@ -6,7 +6,7 @@
         <header class="page-header">
             <h2>請填寫資料完成購買</h2>
         </header>
-        <form action="{{ URL::to('/buy') }}" method="post">
+        <form action="{{ URL::to('/'. $prefix . '/submit') }}" method="post">
             <div class="form-group">
                 <label for="product">商品</label>
                 <input type="text" class="form-control" id="product" name="product" readonly 
@@ -26,6 +26,11 @@
             </div>
 
             <div class="form-group">
+                <label for="other">其他需求，例如 : 大小、顏色</label>
+                <input type="text" class="form-control" id="other" name="other" placeholder="">
+            </div>            
+
+            <div class="form-group">
                 <label for="name">收件人</label>
                 <input type="text" class="form-control" id="name" name="name" 
                     placeholder="王小明">
@@ -43,8 +48,13 @@
             </div>
 
             <div class="form-group">
-                <label for="ship">宅配方式</label>
-                <input type="text" class="form-control" id="ship" name="ship" value="貨到付款" readonly>
+                <label for="ship">運送方式</label>
+                <input type="text" class="form-control" id="ship" name="ship" value="快遞" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="payment">付款方式</label>
+                <input type="text" class="form-control" id="payment" name="payment" value="貨到付款" readonly>
             </div>
 
             <div class="form-group">
