@@ -99,6 +99,10 @@ class Tester {
      */
     public function pageview()
     {
+	// If it is bot, refuse it
+	$agent = new Agent();
+	if (!$agent->device() or $agent->device() == 'Bot') return;
+
         // Only interact once per experiment.        
         if ($this->session->get('pageview/' . $this->prefix())) return;        
         $experiment = Experiment::firstOrNew(['name' => $this->experiment()]);
