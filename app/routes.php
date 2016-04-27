@@ -20,5 +20,7 @@ Route::get('/sample', 'HomeController@showSample');
 Route::get('/minions', 'HomeController@showMinions');
 Route::get('/lipstick', 'HomeController@showLipstick');
 
+Route::get('/product/{id}', 'ProductController@show');
+
 Route::get('/{prefix}/buy', 'BuyController@showBuy');
 Route::post('/{prefix}/submit', 'BuyController@submit');

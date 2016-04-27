@@ -287,7 +287,9 @@ class Tester {
 
     private function prefix()
     {
-        return strtok(FRequest::path(), '/');
+        // The path will look like '/product/{prefix}', we need to get the prefix
+        strtok(FRequest::path(), '/');
+        return strtok('/');
     }
 
 }
