@@ -47,7 +47,7 @@
 			@if($video != '')
 				<div class="embed-responsive embed-responsive-4by3"
 					 ng-show="isVideoDisplay">
-					<iframe class="youtuber embed-responsive-item" 
+					<iframe id="youtuber" class="youtuber embed-responsive-item" 
 						src="{{ $video['src'] }}{{ $autoplay ? '?rel=0&autoplay=1&':'?' }}version=3&enablejsapi=1&showinfo=1&controls=1"
 						allowfullscreen></iframe>					
 				</div>

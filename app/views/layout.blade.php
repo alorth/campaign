@@ -17,6 +17,7 @@
  		<link rel="stylesheet" href="/lib/bootstrap.min.css">   	
 
         <script src="/js/galleryCtrl.js"></script>
+        <script src="/js/youtuber.js"></script>
         <link rel="stylesheet" href="/css/shop.css">   	
 
     	@yield('head')
