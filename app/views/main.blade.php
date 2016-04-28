@@ -10,7 +10,7 @@
 
 @section('body')    
 	<div class="page-header text-center">
-		<img class="center-block" src="{{ asset('images/origin_logo.png') }}">
+		<img class="center-block img-responsive" src="{{ asset('images/origin_logo.png') }}">
 
 		<p>我們提供多樣化的商品及最實惠的價格</p>
 	</div>
