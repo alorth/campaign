@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return '';
-});
+Route::get('/', 'HomeController@showMain');
 
 Route::get('/sample', 'HomeController@showSample');
 Route::get('/minions', 'HomeController@showMinions');

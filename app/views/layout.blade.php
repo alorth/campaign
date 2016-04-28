@@ -48,6 +48,17 @@
     	
     </head>
     <body ng-app="shopApp" >
+        <nav class="navbar navbar-inverse">
+            <div class="container container-fluid col-xs-offset-1">
+                <div class="navbar-header">                 
+                    <a href="{{ URL::to('/') }}">
+                    <img class="" src="{{ asset('images/long_logo.png') }}" >
+                    </a>
+                </div>
+                <p class="navbar-text">new era of mobile commerce</p>
+            </div>                      
+        </nav>
+
         <div class="container">
 	       @yield('body')
         </div>
