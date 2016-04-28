@@ -22,3 +22,5 @@ Route::get('/lipstick', 'HomeController@showLipstick');
 
 Route::get('/{prefix}/buy', 'BuyController@showBuy');
 Route::post('/{prefix}/submit', 'BuyController@submit');
+
+Route::get('/report', 'BuyController@showReport');
