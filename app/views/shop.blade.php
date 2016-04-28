@@ -87,7 +87,7 @@
 	<hr>
 	<div class="container">
 		<h3>關於商品</h3>
-		{{ nl2br(e($bottomDesc)) }}
+		{{ nl2br($bottomDesc) }}
 	</div>
 	
 @stop

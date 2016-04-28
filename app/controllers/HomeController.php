@@ -119,14 +119,7 @@ class HomeController extends BaseController {
 		$images = [
 			'images/lipstick/1.jpg',
 			'images/lipstick/2.jpg',
-			'images/lipstick/3.jpg',
-			'images/lipstick/4.jpg',
-			'images/lipstick/5.jpg',
-			'images/lipstick/6.jpg',
-			'images/lipstick/7.jpg',
-			'images/lipstick/8.jpg',
-			'images/lipstick/9.jpg',
-			'images/lipstick/10.jpg',
+			'images/lipstick/3.jpg'
 		];
 		$video = [
 			'image' => 'images/lipstick/0.png',
@@ -146,6 +139,7 @@ class HomeController extends BaseController {
 			※ 產品規格若敘述有誤，請以實物為主。
 			※ 欲退貨的商品必須為全新狀態且完整包裝，一經拆封使用或拆解導致缺乏完整性，恕無法做退貨動作。
 			※ 運送過程外盒偶有碰撞擠壓，但並不損及內盒產品完整性；如嚴格要求外盒完整與八角無損者，購買前敬請三思。
+			<img src='" . asset('images/lipstick/full.jpg') . "'>
 			";
 		$price = 780;
 		// Product information stop ---
