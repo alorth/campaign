@@ -26,6 +26,11 @@ footer h2 {
 	color: #555555;
 }
 
+.vertical-thumbnail-frame {
+	overflow-y: auto;
+	max-height: 800px;
+}
+
 .vertical-thumbnail-frame img {
 	margin: 0 0 8px 0;
 }

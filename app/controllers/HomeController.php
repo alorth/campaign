@@ -120,6 +120,13 @@ class HomeController extends BaseController {
 			'images/lipstick/1.jpg',
 			'images/lipstick/2.jpg',
 			'images/lipstick/3.jpg',
+			'images/lipstick/4.jpg',
+			'images/lipstick/5.jpg',
+			'images/lipstick/6.jpg',
+			'images/lipstick/7.jpg',
+			'images/lipstick/8.jpg',
+			'images/lipstick/9.jpg',
+			'images/lipstick/10.jpg',
 		];
 		$video = [
 			'image' => 'images/lipstick/0.png',
