@@ -1,5 +1,11 @@
 @extends('layout')
 
+@section('head')
+    <script>
+        fbq('track', 'InitiateCheckout');
+    </script>
+@stop
+
 @section('body')    
 
     <div class="col-md-6 col-md-offset-3">
@@ -63,7 +69,8 @@
             </div>
 
             
-            <button type="submit" class="btn btn-default">送出</button>
+            <button type="submit" class="btn btn-default" 
+                onclick="fbq('track', 'Purchase', {value: {{ $price }} * $('#number').val(), currency:'TWD'});">送出</button>
         </form>
     </div>
 

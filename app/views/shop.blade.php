@@ -6,7 +6,6 @@
 	<meta property="og:title" content='{{{ $title }}}'/>
 	<meta property="og:description" content='{{{ $rightDesc }}}'/>
 	<meta property="og:image" content='{{ asset($images[0]) }}'/>
-
 @stop
 
 
