@@ -6,6 +6,8 @@ class TrackController extends \BaseController {
 	{
 		$time = Input::get('time');
 		Log::info('track youtube time ' . $time);
+		AB::logYoutube($time);
+
 	}
 
 

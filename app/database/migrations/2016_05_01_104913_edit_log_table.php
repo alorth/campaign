@@ -14,7 +14,7 @@ class EditLogTable extends Migration {
 	{
 		Schema::table('logs', function($table) {
 			$table->string('ip');
-			$table->string('uid');
+			$table->string('uuid');
 			$table->float('youtube_time');
 		});
 	}
@@ -28,7 +28,7 @@ class EditLogTable extends Migration {
 	{
 		Schema::table('logs', function($table) {
 			$table->dropColumn('ip');
-			$table->dropColumn('uid');
+			$table->dropColumn('uuid');
 			$table->dropColumn('youtube_time');
 		});
 	}
