@@ -12,7 +12,7 @@
         <header class="page-header">
             <h2>請填寫資料完成購買</h2>
         </header>
-        <form action="{{ URL::to('/'. $prefix . '/submit') }}" method="post">
+        <form action="{{ URL::to('/product/'. $prefix . '/submit') }}" method="post">
             <div class="form-group">
                 <label for="product">商品</label>
                 <input type="text" class="form-control" id="product" name="product" readonly 

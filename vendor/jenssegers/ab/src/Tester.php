@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Request as FRequest;
+use Illuminate\Support\Facades\Log as Logger;
 
 use Jenssegers\AB\Session\SessionInterface;
 use Jenssegers\AB\Models\Experiment;
@@ -148,6 +149,7 @@ class Tester {
         // Only complete once per experiment.
         $experiment = $this->experiment();
         $prefix = $this->prefix();
+        Logger::info('Complete : ' . "completed_" . $prefix . "_" . $name);
         if ($this->session->get("completed_" . $prefix . "_" . $name)) return;
 
         $goal = Goal::firstOrCreate(['name' => $name, 'experiment' => $experiment]);
@@ -287,7 +289,9 @@ class Tester {
 
     private function prefix()
     {
-        return strtok(FRequest::path(), '/');
+        // The path will look like '/product/{prefix}', we need to get the prefix
+        strtok(FRequest::path(), '/');
+        return strtok('/');
     }
 
 }
