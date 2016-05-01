@@ -30,7 +30,7 @@ class BuyController extends \BaseController {
 			'name' => Input::get('name'),
 			'phone' => Input::get('phone')
 		]);
-		return Redirect::to($prefix)->with('message', '成功寄出 !');
+		return Redirect::to('/product/' . $prefix)->with('message', '成功寄出 !');
 	}
 
 	public function showReport()

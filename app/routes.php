@@ -17,10 +17,10 @@ Route::get('/sample', 'HomeController@showSample');
 Route::get('/minions', 'HomeController@showMinions');
 Route::get('/lipstick', 'HomeController@showLipstick');
 
-Route::get('/product/{id}', 'ProductController@show');
+Route::get('/product/{prefix}', 'ProductController@show');
 
-Route::get('/{prefix}/buy', 'BuyController@showBuy');
-Route::post('/{prefix}/submit', 'BuyController@submit');
+Route::get('/product/{prefix}/buy', 'BuyController@showBuy');
+Route::post('/product/{prefix}/submit', 'BuyController@submit');
 
 Route::get('/report', 'BuyController@showReport');
 

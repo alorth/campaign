@@ -12,8 +12,8 @@ app.controller("galleryCtrl", function($scope) {
 		video: ''
 	};
 
-	$scope.init = function(images, video) {
-		$scope.mainImageSrc = images[0];
+	$scope.init = function(image, video) {
+		$scope.mainImageSrc = image;
 		$scope.isVideoDisplay = video != '' ? true : false;
 		buffer.video = video;
 		$scope.focusSideImage(0);

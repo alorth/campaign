@@ -41,7 +41,7 @@
 	</header>
 
 	<div class="container middle-frame" ng-controller='galleryCtrl' 
-		ng-init="init({{{ json_encode($images) }}},
+		ng-init="init({{{ json_encode($images[0]) }}},
 						{{{ json_encode($video) }}})">
 
 		<!-- Left Side thumbnails -->

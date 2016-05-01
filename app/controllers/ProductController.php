@@ -41,25 +41,23 @@ class ProductController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($prefix)
 	{
-		$product = Product::with(['images', 'video'])->findOrFail($id);
+		$product = Product::with(['images', 'video'])->where('prefix', $prefix)->firstOrFail();
+
+		// Record the title of product, then it can be used to shop
+		Cookie::queue('title', $product->title, 60);
+		Cookie::queue('price', $product->price, 60);
 
 		// AB testing , if user isn't in video experiment, clear it
-		// if (AB::experiment($product->prefix . '/video')) {
-		// 	array_unshift($product->images, $product->video->image);
-		// } else {
-		// 	$product->video = '';
-		// }
+		if (AB::experiment($product->prefix . '/video')) {
+			$product->images->prepend(new Image(['src' => $product->video->image]));
+		} else {
+			$product->video = '';
+		}
 
-		return View::make('shop', [
-			'prefix' => $product->prefix,
-			'title' => $product->title,
-			'images' => $product->images,
-			'video' => $product->video,
-			'rightDesc' => $product->rightDesc,
-			'bottomDesc' => $product->bottomDesc,
-			'price' => $product->price,
+		return View::make('product', [
+			'product' => $product,
 			'autoplay' => true
 		]);
 	}
