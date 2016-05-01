@@ -1,4 +1,12 @@
 
+.navbar {
+	background: #666666;
+}
+
+.navbar .navbar-text {
+	color: #cccccc;
+}
+
 .border-highlight {
 	border: 2px solid orange;
 }

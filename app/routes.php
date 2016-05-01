@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return '';
-});
+Route::get('/', 'HomeController@showMain');
 
 Route::get('/sample', 'HomeController@showSample');
 Route::get('/minions', 'HomeController@showMinions');
@@ -24,3 +21,7 @@ Route::get('/product/{id}', 'ProductController@show');
 
 Route::get('/{prefix}/buy', 'BuyController@showBuy');
 Route::post('/{prefix}/submit', 'BuyController@submit');
+
+Route::get('/report', 'BuyController@showReport');
+
+Route::post('/youtube', 'TrackController@youtubeWatchTime');

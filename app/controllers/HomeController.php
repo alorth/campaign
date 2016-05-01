@@ -15,6 +15,11 @@ class HomeController extends BaseController {
 	|
 	*/
 
+	public function showMain()
+	{
+		return View::make('main');
+	}
+
 	public function showSample()
 	{
 		// Product information start ---

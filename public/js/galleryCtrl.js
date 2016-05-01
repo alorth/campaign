@@ -21,7 +21,7 @@ app.controller("galleryCtrl", function($scope) {
 
 	$scope.clickSideImage = function(image) {
 		if(buffer.video != '') {
-			stopYoutube();
+			youtuber.stopVideo();
 			$scope.isVideoDisplay = false;
 		}
 		$scope.mainImageSrc = image;
@@ -44,10 +44,5 @@ app.controller("galleryCtrl", function($scope) {
 	$scope.focusSideImage = function(key) {
 		$scope.thumbnailClass = [];
 		$scope.thumbnailClass[key] = 'border-highlight';
-	}
-
-	function stopYoutube() {
-		$('.youtuber')[0].contentWindow
-			.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
 	}
 });
