@@ -6,6 +6,31 @@
 	<meta property="og:title" content='{{{ $title }}}'/>
 	<meta property="og:description" content='{{{ $rightDesc }}}'/>
 	<meta property="og:image" content='{{ asset($images[0]) }}'/>
+
+	@if($video != '')
+		<script src="/js/youtuber.js"></script>
+		<script src="/js/tracker.js"></script>
+
+		<script>
+			// Load youtube API
+			(function() {
+				var tag = document.createElement('script');
+				tag.src = "https://www.youtube.com/iframe_api";
+				var firstScriptTag = document.getElementsByTagName('script')[0];
+				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+			})();
+
+			function onYouTubeIframeAPIReady() {
+				youtuber.set('youtuber');
+				youtuber.init(tracker);
+			}
+
+			window.onunload = function() {
+				tracker.youtubeTime(youtuber.getCurrentTime());
+			}
+		</script>
+	@endif
+
 @stop
 
 
