@@ -7,6 +7,11 @@ class Video extends Eloquent {
 	
 	public function product()
 	{
-		$this->belongsTo('Product');
+		return $this->belongsTo('Product');
+	}
+
+	public function thumbnail()
+	{
+		return $this->belongsTo('Image', 'image_id', 'id');
 	}
 }
