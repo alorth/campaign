@@ -7,6 +7,30 @@
 	<meta property="og:description" content='{{{ $rightDesc }}}'/>
 	<meta property="og:image" content='{{ asset($images[0]) }}'/>
 
+	@if($video != '')
+		<script src="/js/youtuber.js"></script>
+		<script src="/js/tracker.js"></script>
+
+		<script>
+			// Load youtube API
+			(function() {
+				var tag = document.createElement('script');
+				tag.src = "https://www.youtube.com/iframe_api";
+				var firstScriptTag = document.getElementsByTagName('script')[0];
+				firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+			})();
+
+			function onYouTubeIframeAPIReady() {
+				youtuber.set('youtuber');
+				youtuber.init(tracker);
+			}
+
+			window.onunload = function() {
+				tracker.youtubeTime(youtuber.getCurrentTime());
+			}
+		</script>
+	@endif
+
 @stop
 
 
@@ -17,7 +41,7 @@
 	</header>
 
 	<div class="container middle-frame" ng-controller='galleryCtrl' 
-		ng-init="init({{{ json_encode($images) }}},
+		ng-init="init({{{ json_encode($images[0]) }}},
 						{{{ json_encode($video) }}})">
 
 		<!-- Left Side thumbnails -->
@@ -48,8 +72,8 @@
 			@if($video != '')
 				<div class="embed-responsive embed-responsive-4by3"
 					 ng-show="isVideoDisplay">
-					<iframe class="youtuber embed-responsive-item" 
-						src="{{ $video['src'] }}{{ $autoplay ? '?rel=0&autoplay=1&':'?' }}version=3&enablejsapi=1&showinfo=1&controls=0"
+					<iframe id="youtuber" class="youtuber embed-responsive-item" 
+						src="{{ $video['src'] }}{{ $autoplay ? '?rel=0&autoplay=1&':'?' }}version=3&enablejsapi=1&showinfo=1&controls=1"
 						allowfullscreen></iframe>					
 				</div>
 			@endif
@@ -88,7 +112,7 @@
 	<hr>
 	<div class="container">
 		<h3>關於商品</h3>
-		{{ nl2br(e($bottomDesc)) }}
+		{{ nl2br($bottomDesc) }}
 	</div>
 	
 @stop

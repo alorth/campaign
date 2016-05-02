@@ -37,7 +37,9 @@ class Experiment extends Eloquent {
 
     private function getPrefix($array)
     {
-        $prefix = strtok(Request::path(), '/');
+        strtok(Request::path(), '/');
+        $prefix = strtok('/');
+
         return preg_grep("/^$prefix.*/", $array);
     }
 

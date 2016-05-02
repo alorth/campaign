@@ -1,4 +1,12 @@
 
+.navbar {
+	background: #666666;
+}
+
+.navbar .navbar-text {
+	color: #cccccc;
+}
+
 .border-highlight {
 	border: 2px solid orange;
 }
@@ -16,6 +24,11 @@ footer {
 
 footer h2 {
 	color: #555555;
+}
+
+.vertical-thumbnail-frame {
+	overflow-y: auto;
+	max-height: 800px;
 }
 
 .vertical-thumbnail-frame img {

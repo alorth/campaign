@@ -1,12 +1,18 @@
 @extends('layout')
 
+@section('head')
+    <script>
+        fbq('track', 'InitiateCheckout');
+    </script>
+@stop
+
 @section('body')    
 
     <div class="col-md-6 col-md-offset-3">
         <header class="page-header">
             <h2>請填寫資料完成購買</h2>
         </header>
-        <form action="{{ URL::to('/'. $prefix . '/submit') }}" method="post">
+        <form action="{{ URL::to('/product/'. $prefix . '/submit') }}" method="post">
             <div class="form-group">
                 <label for="product">商品</label>
                 <input type="text" class="form-control" id="product" name="product" readonly 
@@ -63,7 +69,8 @@
             </div>
 
             
-            <button type="submit" class="btn btn-default">送出</button>
+            <button type="submit" class="btn btn-default" 
+                onclick="fbq('track', 'Purchase', {value: {{ $price }} * $('#number').val(), currency:'TWD'});">送出</button>
         </form>
     </div>
 

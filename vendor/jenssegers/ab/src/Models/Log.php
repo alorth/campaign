@@ -7,7 +7,7 @@ class Log extends Eloquent {
 
     protected $primaryKey = 'id';
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     protected $fillable = ['experiment', 'goal', 'device', 'platform', 'browser'];
 

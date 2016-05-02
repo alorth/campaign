@@ -7,7 +7,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"jenssegers/ab": "^0.2.0",
-		"jenssegers/agent": "^2.3"
+		"jenssegers/agent": "^2.3",
+		"ramsey/uuid": "^3.4"
 	},
 	"autoload": {
 		"classmap": [
