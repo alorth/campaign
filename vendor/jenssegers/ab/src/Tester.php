@@ -209,6 +209,11 @@ class Tester {
         $log->save();
     }
 
+    public function getUuid()
+    {
+        return $this->session->get('uuid');
+    }
+
     /**
      * Set the current experiment for this session manually.
      *

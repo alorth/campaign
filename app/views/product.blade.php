@@ -7,9 +7,11 @@
 	<meta property="og:description" content='{{{ $product->rightDesc }}}'/>
 	<meta property="og:image" content='{{ asset($product->images[0]->src) }}'/>
 
+	<script src="/js/tracker.js"></script>
+	
 	@if($product->video != '')
 		<script src="/js/youtuber.js"></script>
-		<script src="/js/tracker.js"></script>
+		
 
 		<script>
 			// Load youtube API
