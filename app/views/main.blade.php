@@ -11,23 +11,21 @@
 @section('body')    
 	<div class="page-header text-center">
 		<img class="center-block img-responsive" src="{{ asset('images/origin_logo.png') }}">
+		<img class="center-block img-responsive img-thumbnail" src="{{ asset('images/combine.jpg') }}">
 
-		<p>我們提供多樣化的商品及最實惠的價格</p>
+		<hr> 
+		<p>Alorth平台提供最多樣化的商品影片，您可直接購買，送至您所在的地方</p>
+		<p>並提供方便快速的影片拍攝功能，簡單將您的商品上架銷售</p>
+		
+		<a href="https://itunes.apple.com/app/id1045919935">
+			<img src="{{ asset('images/apple_download.png') }}">
+		</a>
+
+
 	</div>
 
 	<div>
-		<div class="col-md-4 col-md-offset-2 text-center">
-			<h3>神偷奶爸II 互動音效黃色小小兵 KEVIN 凱文 BANANA</h3>
-			<img src="images/minors/0.jpg" class="img-responsive img-thumbnail">
-			<br><br>
-			<a class="btn btn-primary btn-lg" href="{{ URL::to('minions') }}" role="button">更多資訊</a>
-		</div>
-		<div class="col-md-4 text-center">
-			<h3>宋慧喬LANEIGE蘭芝雙色唇膏 超放電絲絨雙色唇膏(2g) 3號 現貨</h3>
-			<img src="images/lipstick/1.jpg" class="img-responsive img-thumbnail">
-			<br><br>
-			<a class="btn btn-primary btn-lg" href="{{ URL::to('lipstick') }}" role="button">更多資訊</a>
-		</div>
+		
 	</div>
 
 @stop
