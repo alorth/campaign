@@ -24,4 +24,5 @@ Route::post('/product/{prefix}/submit', 'BuyController@submit');
 
 Route::get('/report', 'BuyController@showReport');
 
-Route::post('/youtube', 'TrackController@youtubeWatchTime');
+Route::post('/track/youtube', 'TrackController@youtubeWatchTime');
+Route::post('/track/image/{id}', 'TrackController@imageClick');

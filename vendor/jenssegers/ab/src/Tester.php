@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Request as FRequest;
 use Illuminate\Support\Facades\Log as Logger;
 
+use Ramsey\Uuid\Uuid;
+
 use Jenssegers\AB\Session\SessionInterface;
 use Jenssegers\AB\Models\Experiment;
 use Jenssegers\AB\Models\Goal;
@@ -177,12 +179,39 @@ class Tester {
 
     private function logAll($name)
     {
+        $uuid = $this->session->get('uuid')? 
+            $this->session->get('uuid') : Uuid::uuid1()->toString();
+        
+        $ip = FRequest::ip();
+        Logger::info("log all, ip = " . $ip . ", uuid = " . $uuid);
+
         $agent = new Agent();
         $log = new Log(['experiment' => $this->experiment(), 'goal' => $name]);
         $log->device = $agent->device();
         $log->platform = $agent->platform();
         $log->browser = $agent->browser();
+        $log->uuid = $uuid;
+        $log->ip = $ip;
         $log->save();   
+
+        $this->session->set('uuid', $uuid);
+    }
+
+    public function logYoutube($time)
+    {
+        if(!$this->session->get('uuid')) {
+            Logger::warning('cannot find session uuid');
+            return;  
+        } 
+        $uuid = $this->session->get('uuid');
+        $log = Log::where('uuid', $uuid)->firstOrFail();
+        $log->youtube_time = $log->youtube_time > $time ? $log->youtube_time : $time;
+        $log->save();
+    }
+
+    public function getUuid()
+    {
+        return $this->session->get('uuid');
     }
 
     /**

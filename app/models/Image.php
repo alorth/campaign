@@ -9,5 +9,11 @@ class Image extends Eloquent {
 	{
 		$this->belongsTo('Product');
 	}
+
+	public function logs() 
+	{
+		return $this->belongsToMany('Jenssegers\AB\Models\Log', 'image_log')->withPivot('count')->withTimestamps();
+	}	
+	
 	
 }

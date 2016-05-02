@@ -51,7 +51,7 @@ class ProductController extends \BaseController {
 
 		// AB testing , if user isn't in video experiment, clear it
 		if (AB::experiment($product->prefix . '/video')) {
-			$product->images->prepend(new Image(['src' => $product->video->image]));
+			$product->images->prepend($product->video->thumbnail);
 		} else {
 			$product->video = '';
 		}
