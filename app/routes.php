@@ -14,8 +14,15 @@
 Route::get('/', 'HomeController@showMain');
 
 Route::get('/sample', 'HomeController@showSample');
-Route::get('/minions', 'HomeController@showMinions');
-Route::get('/lipstick', 'HomeController@showLipstick');
+// Route::get('/minions', 'HomeController@showMinions');
+// Route::get('/lipstick', 'HomeController@showLipstick');
+Route::get('/minions', function() {
+	return Redirect::to('/product/minions');
+});
+Route::get('/lipstick', function() {
+	return Redirect::to('/product/lipstick');
+});
+
 
 Route::get('/product/{prefix}', 'ProductController@show');
 
